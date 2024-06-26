@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orcamento_Pintura", "Orcamento_Pintura\Orcamento_Pintura.csproj", "{E041E457-F821-4427-BF42-C39E3BC71D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orçamento_Pintura_Cadastro", "Orçamento_Pintura_Cadastro\Orçamento_Pintura_Cadastro.csproj", "{383B6EED-B5D6-4AAD-BB3C-2F331938D6CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E041E457-F821-4427-BF42-C39E3BC71D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E041E457-F821-4427-BF42-C39E3BC71D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E041E457-F821-4427-BF42-C39E3BC71D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E041E457-F821-4427-BF42-C39E3BC71D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383B6EED-B5D6-4AAD-BB3C-2F331938D6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383B6EED-B5D6-4AAD-BB3C-2F331938D6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383B6EED-B5D6-4AAD-BB3C-2F331938D6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383B6EED-B5D6-4AAD-BB3C-2F331938D6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA0F851B-62B4-4CEE-A745-7D8B6D9CDC42}
+	EndGlobalSection
+EndGlobal
