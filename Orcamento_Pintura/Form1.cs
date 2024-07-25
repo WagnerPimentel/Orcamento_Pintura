@@ -41,7 +41,13 @@ namespace Orcamento_Pintura
 
                 double custoTotal = areaTotal * precoPorMetroQuadrado;
 
-                label5.Text = "Resultado: R$ " + custoTotal.ToString("F2");
+                if (label5.Text != "")
+                {
+                    custoTotal += Convert.ToDouble(label5.Text);
+                }
+
+                label5.Text = custoTotal.ToString("F2");
+
             }
             catch (FormatException)
             {
@@ -56,7 +62,7 @@ namespace Orcamento_Pintura
             textBox3.Text = "";
             textBox4.Text = "";
 
-            label5.Text = "Resultado: R$ 0,00";
+            label5.Text = "0,00";
         }
 
         private void btnEncerrar_Click(object sender, EventArgs e)
@@ -66,11 +72,23 @@ namespace Orcamento_Pintura
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(this);
+            Form2 form2 = new Form2();
             form2.Show();
+            Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            Hide();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }
